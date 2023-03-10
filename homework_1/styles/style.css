@@ -1,0 +1,11 @@
+h1 {
+    margin-bottom: 25px;
+}
+
+p {
+    background-color: #34495E;
+    padding: 21px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 50px;
+}

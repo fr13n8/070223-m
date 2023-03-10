@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.red-block {
+    background-color: red;
+}
+
+.green-block {
+    background-color: green;
+    z-index: 10;
+    top: 50px;
+    left: 50px;
+    transition: all 1s 0s ease;
+}
+
+.blue-block {
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+}
+
+.green-block:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);
+}
